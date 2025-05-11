@@ -1,0 +1,19 @@
+.nav {
+  background-color: brown;
+}
+
+.main {
+  background-color: aqua;
+}
+
+.footer {
+  background-color: greenyellow;
+}
+
+.section {
+  margin: 20px;
+}
+
+.img {
+  align-self: center;
+}

@@ -1,9 +1,10 @@
-import "../app/ui/global.css";
+import "../app/ui/styles/global.css";
+import { TGND } from "../app/ui/styles/fonts";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${TGND.className}`}>{children}</body>
     </html>
   );
 }
