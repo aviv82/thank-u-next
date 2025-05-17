@@ -1,3 +1,12 @@
 .nav-bar {
-  background-color: aqua;
+  height: 60px;
+  border-bottom: rgb(76, 1, 76) 2px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar-link {
+  text-decoration: none;
 }
