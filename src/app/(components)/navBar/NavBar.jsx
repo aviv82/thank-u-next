@@ -1,4 +1,4 @@
-import "@/components/navBar/nav-bar.css";
+import "./nav-bar.css";
 
 import Link from "next/link";
 
