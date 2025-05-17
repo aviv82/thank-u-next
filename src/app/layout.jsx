@@ -9,13 +9,21 @@ const dosis = Dosis({
   subsets: ["latin"],
 });
 
+export const metadata = {
+  description: "A page about next.js",
+  title: "thank u next",
+};
+
+export const link = {
+  rel: "icon",
+  href: "/favicon.ico",
+  sizes: "any",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={dosis.className}>
-      <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <title>thank u next</title>
-      </head>
+      <head />
       <body>
         <NavBar />
         {children}
